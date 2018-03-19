@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/notbk"
+    android:layout_height="match_parent"
+    tools:context="com.ontro.abhi.diary1.Note">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvnt"
+        android:text="Notes"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45sp"
+        android:text="1."
+        android:textSize="25sp"
+        android:id="@+id/one"
+        android:layout_below="@id/tvnt"/>
+
+
+    <EditText
+        android:id="@+id/etnt1"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/tvnt"
+            android:layout_height="50sp"
+        android:layout_toRightOf="@+id/tvnt"
+        android:layout_toEndOf="@+id/tvnt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="2."
+        android:textSize="25sp"
+        android:id="@+id/two"
+        android:layout_below="@id/one"/>
+
+    <EditText
+        android:id="@+id/etnt2"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:layout_below="@id/etnt1"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/etnt1"
+        android:layout_alignStart="@+id/etnt1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="3."
+        android:textSize="25sp"
+        android:id="@+id/three"
+        android:layout_below="@id/two"/>
+
+    <EditText
+        android:id="@+id/etnt3"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:layout_height="50sp"
+        android:layout_below="@+id/etnt2"
+        android:layout_alignLeft="@+id/etnt2"
+        android:layout_alignStart="@+id/etnt2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="4."
+        android:textSize="25sp"
+        android:id="@+id/four"
+        android:layout_below="@id/three"/>
+
+    <EditText
+        android:id="@+id/etnt4"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:layout_below="@id/etnt3"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/etnt3"
+        android:layout_alignStart="@+id/etnt3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="5."
+        android:textSize="25sp"
+        android:id="@+id/five"
+        android:layout_below="@id/four"/>
+
+    <EditText
+        android:id="@+id/etnt5"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:layout_below="@id/etnt4"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/etnt4"
+        android:layout_alignStart="@+id/etnt4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:id="@+id/btnnt"
+        android:text="SAVE"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
